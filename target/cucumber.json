@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Verify user can Login successfully",
+        "description": "",
+        "id": "this-is-waterfall-login-functionality;verify-user-can-login-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1230888800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Open Demoblaze \u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 17
+                }
+              ],
+              "location": "WaterFallLogin.open_Demoblaze(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 96787400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click Loginnn",
+            "match": {
+              "location": "WaterFallLogin.click_Loginnn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6321683000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter username and password and click login2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 43
+                }
+              ],
+              "location": "WaterFallLogin.enter_username_and_password_and_click_login(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 322596800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify user can login successfully",
+            "match": {
+              "location": "WaterFallLogin.verify_user_can_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "This is waterfall Login Functionality",
+    "description": "",
+    "id": "this-is-waterfall-login-functionality",
+    "keyword": "Feature",
+    "uri": "WaterFallLogin.feature"
+  }
+]
